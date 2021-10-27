@@ -1,6 +1,6 @@
 package com.brandao.casadocodigo.novoautor
 
-import com.brandao.casadocodigo.shared.handler.validacao.EmailUnico
+import com.brandao.casadocodigo.shared.validacao.EmailUnico
 import javax.validation.constraints.Email
 import javax.validation.constraints.NotBlank
 import javax.validation.constraints.Size

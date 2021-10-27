@@ -1,4 +1,4 @@
-package com.brandao.casadocodigo.shared.handler.validacao
+package com.brandao.casadocodigo.shared.validacao
 
 import com.brandao.casadocodigo.novoautor.AutorRepository
 import javax.validation.Constraint
