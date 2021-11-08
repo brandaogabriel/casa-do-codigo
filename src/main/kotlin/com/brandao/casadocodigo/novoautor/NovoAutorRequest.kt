@@ -1,5 +1,6 @@
 package com.brandao.casadocodigo.novoautor
 
+import com.brandao.casadocodigo.shared.validacao.CampoUnico
 import com.brandao.casadocodigo.shared.validacao.EmailUnico
 import javax.validation.constraints.Email
 import javax.validation.constraints.NotBlank
@@ -11,7 +12,7 @@ data class NovoAutorRequest(
 
     @field:NotBlank
     @field:Email
-    @field:EmailUnico
+    @field:CampoUnico(fieldName = "email", domainClass = Autor::class)
     val email: String,
 
     @field:NotBlank
